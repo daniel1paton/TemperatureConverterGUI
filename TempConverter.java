@@ -88,7 +88,7 @@ public class TempConverter {
 		textFieldCelsius.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusGained(FocusEvent arg0) {
-				textFieldFahrenheit.setText("0.00");
+				textFieldFahrenheit.setText("32.00");
 			}
 		});
 		
@@ -97,7 +97,7 @@ public class TempConverter {
 		textFieldCelsius.setColumns(10);
 		
 		textFieldFahrenheit = new JTextField();
-		textFieldFahrenheit.setText("0.00");
+		textFieldFahrenheit.setText("32.00");
 		textFieldFahrenheit.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusGained(FocusEvent e) {
